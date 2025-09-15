@@ -54,13 +54,13 @@ const NavBar = () => {
           TESTIMONIALS
         </a>
       </nav> */}
-      <button
+      <a
         className="hidden md:block bg-[#a7a7a7] text-black py-3 
       px-8 rounded-full border-none font-medium transition-all duration-500
-      hover:bg-white cursor-pointer "
+      hover:bg-white cursor-pointer " href="https://github.com/borakmanko" target="_blank"
       >
-        Contact
-      </button>
+        Github
+      </a>
       {/* Mobile Menu Button */}
       <button onClick = {toggleMobileMenu} className="md:hidden text-3xl p-2">
         <i class="bx bx-menu"></i>
